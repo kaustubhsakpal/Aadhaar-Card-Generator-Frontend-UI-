@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f3131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card2{
+    height: 200px;
+    width: 300px;
+ background-color: white;
+ border-radius: 5px;
+ /* display: flex;
+ justify-content: center;
+ align-items:center; */
+
+}
+
+
+ 
+.name{
+    color: rgb(50, 50, 50);
+    margin-left: 4px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+font-weight:lighter;
+
+}
+
+.myphoto{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+ .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight:bold;
+
+ }
+ .foteer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }

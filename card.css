@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+}
+
+.container{
+    max-width: 95vw;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+
+}
+
+.card-container{
+    display: flex;
+}
+.header-tittle{ 
+  text-align: center;
+}
+
+.header-describtion{
+   max-width: 500px;
+   text-align: center;
+   margin-top: 10px;
+   margin-left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.container{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.container-tittle{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.card-image{
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
+    object-position: center;;
+    border-radius: 5px;
+    position: absolute
+
+}
+.image-container{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+
+}
+
+.card1line{
+    margin-top: 10px;
+    padding-left: 20px;
+
+}
+ 
+.card1line2{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.footercontainer{
+    /* display: flex; */
+
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 10px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.footer3{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.footer4{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.footercontainer{
+    height: 50px;
+    width: 250px;
+    /* display: flex;
+    justify-content: space-between; */
+
+}
+
+.cardinfo{
+
+}
+.allcontainer{
+
+ border: 2px solid black;
+
+}
